@@ -1,6 +1,7 @@
-<p style="color: green"><%= notice %></p>
 
-<% content_for :title, "Entries" %>
+<% content_for :title do %>
+  Foodlog - <%= DateTime.now %>
+<% end %>
 
 <h1>Entries</h1>
 
