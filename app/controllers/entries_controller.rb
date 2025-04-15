@@ -25,7 +25,7 @@ class EntriesController < ApplicationController
 
     respond_to do |format|
       if @entry.save
-        format.html { redirect_to @entry, notice: "Entry was successfully created." }
+        format.html { redirect_to entry_url(@entry), notice: "Entry was successfully created." }
         format.json { render :show, status: :created, location: @entry }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +38,7 @@ class EntriesController < ApplicationController
   def update
     respond_to do |format|
       if @entry.update(entry_params)
-        format.html { redirect_to @entry, notice: "Entry was successfully updated." }
+        format.html { redirect_to entry_url(@entry), notice: "Entry was successfully updated." }
         format.json { render :show, status: :ok, location: @entry }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -49,10 +49,10 @@ class EntriesController < ApplicationController
 
   # DELETE /entries/1 or /entries/1.json
   def destroy
-    @entry.destroy!
+    @entry.destroy
 
     respond_to do |format|
-      format.html { redirect_to entries_path, status: :see_other, notice: "Entry was successfully destroyed." }
+      format.html { redirect_to entries_url, notice: "Entry was successfully destroyed." }
       format.json { head :no_content }
     end
   end
@@ -60,11 +60,11 @@ class EntriesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_entry
-      @entry = Entry.find(params.expect(:id))
+      @entry = Entry.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
     def entry_params
-      params.expect(entry: [ :meal_type, :calories, :proteins, :carbohydrates, :fats ])
+      params.require(:entry).permit(:meal_entry, :calories, :protiens, :carbohydrates, :fats)
     end
 end
