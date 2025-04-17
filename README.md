@@ -3,15 +3,20 @@ FOOD LOG – Ruby on Rails App
 
 Food Log is a simple Ruby on Rails application that allows users to track the food they eat. Users can add, view, update, and delete food entries, each of which can be categorized (e.g., Breakfast, Lunch, Dinner). The app is styled using the Bulma CSS framework for a clean, responsive interface.
 
+![Screenshot 2025-04-15 at 4 25 55 PM](https://github.com/user-attachments/assets/b607ffb7-d07e-4f5d-b62c-2cb4296d409d)
+![Screenshot 2025-04-15 at 4 26 01 PM](https://github.com/user-attachments/assets/51b841c4-7003-4371-a00a-b27a753bc06b)
+![Screenshot 2025-04-15 at 4 26 06 PM](https://github.com/user-attachments/assets/3e6da4c1-c1b3-4ace-81cd-30fd647dbf34)
+![Screenshot 2025-04-15 at 4 26 16 PM](https://github.com/user-attachments/assets/7983fc09-dfa4-4ae8-aa0c-c4a173009c93)
+![Screenshot 2025-04-15 at 4 26 27 PM](https://github.com/user-attachments/assets/b28778e7-913e-4d14-9be1-b2665d7ff7ac)
+
+
 Features
 --------
 - Create, Read, Update, Delete (CRUD) functionality for food logs
-- Categorization of food items
 - Form validations using Active Record
 - UI styled with Bulma CSS
-- Organized Rails folder structure with scaffolds
-- Model associations and relationships
-- Full testing setup (models, controllers, system tests)
+- Organized Rails folder structure
+- Testing setup 
 
 Technologies
 ------------
@@ -71,7 +76,7 @@ Run all tests:
 
 Project Structure
 -----------------
-- app/models/         – Active Record models and associations
+- app/models/         – Active Record models
 - app/controllers/    – Application and resource controllers
 - app/views/          – View templates (ERB)
 - app/assets/stylesheets/ – Bulma and custom styles
