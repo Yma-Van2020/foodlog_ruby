@@ -7,7 +7,6 @@ Food Log is a simple Ruby on Rails application that allows users to track the fo
 ![Screenshot 2025-04-17 at 8 38 01 PM](https://github.com/user-attachments/assets/c673be65-0b8f-4db9-ab8e-aba31d91db9d)
 ![Screenshot 2025-04-17 at 8 38 07 PM](https://github.com/user-attachments/assets/e9b32bd7-d6d8-429c-8116-7d2851fd23e8)
 ![Screenshot 2025-04-17 at 8 39 08 PM](https://github.com/user-attachments/assets/02dcb016-0b72-44a1-a7ed-5bfe8d99bbe3)
-![Screenshot 2025-04-17 at 8 38 09 PM](https://github.com/user-attachments/assets/47c830eb-6a32-4a35-8bfa-4a8714230770)
 ![Screenshot 2025-04-17 at 8 38 14 PM](https://github.com/user-attachments/assets/35c3a5e2-b501-448a-950d-3585d4a6b1ef)
 ![Screenshot 2025-04-17 at 8 38 27 PM](https://github.com/user-attachments/assets/3204156c-a0a3-4ea6-8ec7-79368f1b6339)
 ![Screenshot 2025-04-17 at 8 39 32 PM](https://github.com/user-attachments/assets/dcb7318d-e21c-4162-99b1-dff053a4034a)
