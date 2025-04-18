@@ -1,17 +1,16 @@
 FOOD LOG – Ruby on Rails App
 ============================
 
-Food Log is a simple Ruby on Rails application that allows users to track the food they eat. Users can add, view, update, and delete food entries, each of which can be categorized (e.g., Breakfast, Lunch, Dinner). The app is styled using the Bulma CSS framework for a clean, responsive interface.
+Food Log is a simple Ruby on Rails application that allows users to track the food they eat. Users can add, view, update, and delete food entries, each of which can be categorized (e.g., Breakfast, Lunch, Dinner). The app is styled using the Bulma CSS framework for a clean, responsive interface. Shows one-to-many relationships between Entry and Category.
 
-![Screenshot 2025-04-17 at 8 38 27 PM](https://github.com/user-attachments/assets/3ad19041-11d8-4d57-9e8c-1788e9ba3e9c)
-![Screenshot 2025-04-17 at 8 38 14 PM](https://github.com/user-attachments/assets/9d37deab-5daf-4a08-957d-2526e01e6ac0)
-![Screenshot 2025-04-17 at 8 39 32 PM](https://github.com/user-attachments/assets/470c0a85-ecfc-4756-b556-287a43f7b623)
-![Screenshot 2025-04-17 at 8 38 09 PM](https://github.com/user-attachments/assets/2a9e3cd3-d218-4584-9fd8-89fa36e9bfcd)
-![Screenshot 2025-04-17 at 8 39 08 PM](https://github.com/user-attachments/assets/5882f817-fcda-457e-8341-bf741c540d9e)
-![Screenshot 2025-04-17 at 8 38 07 PM](https://github.com/user-attachments/assets/6d2d2df6-d6a6-4e09-9788-916acd681e18)
-![Screenshot 2025-04-17 at 8 38 01 PM](https://github.com/user-attachments/assets/92a82d92-67c3-476e-9fba-34d4f7e1f00b)
-![Screenshot 2025-04-17 at 8 37 56 PM](https://github.com/user-attachments/assets/184732c3-d029-4474-a1f3-831a8d4c4720)
-
+![Screenshot 2025-04-17 at 8 37 56 PM](https://github.com/user-attachments/assets/fe56ba10-5ac6-4ae4-81e6-1e6f624bfd77)
+![Screenshot 2025-04-17 at 8 38 01 PM](https://github.com/user-attachments/assets/c673be65-0b8f-4db9-ab8e-aba31d91db9d)
+![Screenshot 2025-04-17 at 8 38 07 PM](https://github.com/user-attachments/assets/e9b32bd7-d6d8-429c-8116-7d2851fd23e8)
+![Screenshot 2025-04-17 at 8 39 08 PM](https://github.com/user-attachments/assets/02dcb016-0b72-44a1-a7ed-5bfe8d99bbe3)
+![Screenshot 2025-04-17 at 8 38 09 PM](https://github.com/user-attachments/assets/47c830eb-6a32-4a35-8bfa-4a8714230770)
+![Screenshot 2025-04-17 at 8 38 14 PM](https://github.com/user-attachments/assets/35c3a5e2-b501-448a-950d-3585d4a6b1ef)
+![Screenshot 2025-04-17 at 8 38 27 PM](https://github.com/user-attachments/assets/3204156c-a0a3-4ea6-8ec7-79368f1b6339)
+![Screenshot 2025-04-17 at 8 39 32 PM](https://github.com/user-attachments/assets/dcb7318d-e21c-4162-99b1-dff053a4034a)
 
 Features
 --------
