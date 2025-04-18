@@ -1,22 +1,27 @@
 FOOD LOG – Ruby on Rails App
 ============================
 
-Food Log is a simple Ruby on Rails application that allows users to track the food they eat. Users can add, view, update, and delete food entries, each of which can be categorized (e.g., Breakfast, Lunch, Dinner). The app is styled using the Bulma CSS framework for a clean, responsive interface.
+Food Log is a simple Ruby on Rails application that allows users to track the food they eat. Users can add, view, update, and delete food entries, each of which can be categorized (e.g., Breakfast, Lunch, Dinner). The app is styled using the Bulma CSS framework for a clean, responsive interface. Shows one-to-many relationships between Entry and Category.
 
-![Screenshot 2025-04-15 at 4 25 55 PM](https://github.com/user-attachments/assets/b607ffb7-d07e-4f5d-b62c-2cb4296d409d)
-![Screenshot 2025-04-15 at 4 26 01 PM](https://github.com/user-attachments/assets/51b841c4-7003-4371-a00a-b27a753bc06b)
-![Screenshot 2025-04-15 at 4 26 06 PM](https://github.com/user-attachments/assets/3e6da4c1-c1b3-4ace-81cd-30fd647dbf34)
-![Screenshot 2025-04-15 at 4 26 16 PM](https://github.com/user-attachments/assets/7983fc09-dfa4-4ae8-aa0c-c4a173009c93)
-![Screenshot 2025-04-15 at 4 26 27 PM](https://github.com/user-attachments/assets/b28778e7-913e-4d14-9be1-b2665d7ff7ac)
-
+![Screenshot 2025-04-17 at 8 37 56 PM](https://github.com/user-attachments/assets/fe56ba10-5ac6-4ae4-81e6-1e6f624bfd77)
+![Screenshot 2025-04-17 at 8 38 01 PM](https://github.com/user-attachments/assets/c673be65-0b8f-4db9-ab8e-aba31d91db9d)
+![Screenshot 2025-04-17 at 8 38 07 PM](https://github.com/user-attachments/assets/e9b32bd7-d6d8-429c-8116-7d2851fd23e8)
+![Screenshot 2025-04-17 at 8 39 08 PM](https://github.com/user-attachments/assets/02dcb016-0b72-44a1-a7ed-5bfe8d99bbe3)
+![Screenshot 2025-04-17 at 8 38 14 PM](https://github.com/user-attachments/assets/35c3a5e2-b501-448a-950d-3585d4a6b1ef)
+![Screenshot 2025-04-17 at 8 38 27 PM](https://github.com/user-attachments/assets/3204156c-a0a3-4ea6-8ec7-79368f1b6339)
+![Screenshot 2025-04-17 at 8 39 32 PM](https://github.com/user-attachments/assets/dcb7318d-e21c-4162-99b1-dff053a4034a)
 
 Features
 --------
-- Create, Read, Update, Delete (CRUD) functionality for food logs
-- Form validations using Active Record
-- UI styled with Bulma CSS
-- Organized Rails folder structure
-- Testing setup 
+ - Create, Read, Update, Delete (CRUD) functionality for food logs
+ - Categorization of food items
+ - Form validations using Active Record
+ - UI styled with Bulma CSS
+ - Organized Rails folder structure with scaffolds
+ - Model associations and relationships
+ - Full testing setup (models, controllers, system tests)
+ - Organized Rails folder structure
+ - Testing setup 
 
 Technologies
 ------------
@@ -76,8 +81,8 @@ Run all tests:
 
 Project Structure
 -----------------
-- app/models/         – Active Record models
-- app/controllers/    – Application and resource controllers
-- app/views/          – View templates (ERB)
-- app/assets/stylesheets/ – Bulma and custom styles
-- test/               – Test files for models, controllers, and system behavior
+ - app/models/         – Active Record models and associations
+ - app/models/         – Active Record models
+ - app/controllers/    – Application and resource controllers
+ - app/views/          – View templates (ERB)
+ - app/assets/stylesheets/ – Bulma and custom styles
