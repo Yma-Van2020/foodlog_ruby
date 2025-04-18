@@ -9,7 +9,7 @@
 
       <nav class="panel is-link">
         <p class="panel-heading">
-          <%= @entry.meal_type %>
+          <%= @entry.meal_type %> : <%= entry.category&.title || "No category" %>
         </p>
 
         <div class="panel-block">
